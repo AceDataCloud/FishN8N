@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a reproducible integration issue
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and expected behavior
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: n8n and package versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Operation, parameters and redacted error
+      description: Do not include API tokens, credentials or private media.
+    validations:
+      required: true
