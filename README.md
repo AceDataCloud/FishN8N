@@ -18,7 +18,7 @@ Maintained by **Ace Data Cloud**, connecting to **AceDataCloud's API**. This is 
 
 ## Installation
 
-In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@acedatacloud/n8n-nodes-fish`, review the package and install. To reproduce this release exactly, use `@acedatacloud/n8n-nodes-fish@0.1.0`.
+In self-hosted n8n, open **Settings → Community nodes → Install**, enter `@acedatacloud/n8n-nodes-fish`, review the package and install. To reproduce this release exactly, use `@acedatacloud/n8n-nodes-fish@0.1.1`.
 
 See [n8n's installation guide](https://docs.n8n.io/integrations/community-nodes/installation-and-management/). n8n Cloud requires verified community nodes. npm publication and verification are separate; check the n8n node panel for current Cloud availability.
 
