@@ -1,6 +1,6 @@
 {
   "name": "@acedatacloud/n8n-nodes-fish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn text into Fish Audio speech, use reference voices, discover voice models, and track synthesis tasks in n8n with AceDataCloud.",
   "license": "MIT",
   "homepage": "https://github.com/AceDataCloud/FishN8N",
