@@ -21,7 +21,7 @@ import { properties } from "./properties";
 import { buildRequest } from "./request";
 export class Fish implements INodeType {
   description: INodeTypeDescription = {
-    displayName: "Fish Audio by AceDataCloud",
+    displayName: "Fish Audio",
     name: "fish",
     icon: { light: "file:icon.png", dark: "file:icon.dark.png" },
     group: ["transform"],
@@ -29,7 +29,7 @@ export class Fish implements INodeType {
     subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
     description:
       "Turn text into Fish Audio speech, use reference voices, discover voice models, and track synthesis tasks in workflows.",
-    defaults: { name: "Fish Audio by AceDataCloud" },
+    defaults: { name: "Fish Audio" },
     inputs: [NodeConnectionTypes.Main],
     outputs: [NodeConnectionTypes.Main],
     usableAsTool: true,
