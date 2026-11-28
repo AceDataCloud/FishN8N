@@ -7,7 +7,7 @@ import type {
 
 export class AceDataFishApi implements ICredentialType {
   name = "aceDataFishApi";
-  displayName = "Fish Audio by AceDataCloud API";
+  displayName = "Fish Audio API";
   documentationUrl = "https://github.com/AceDataCloud/FishN8N#credentials";
   icon = "file:../nodes/Fish/icon.png" as const;
   properties: INodeProperties[] = [
